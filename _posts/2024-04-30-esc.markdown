@@ -6,8 +6,8 @@ image: /images/esc.png
 categories: research
 author: "Yuzhe Gu"
 authors: "<strong>Yuzhe Gu</strong>, Enmao Diao"
-venue: "EMNLP"
-arxiv: https://arxiv.org/abs/2404.19441
+venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+paper: https://arxiv.org/abs/2404.19441
 code: https://github.com/yzGuu830/efficient-speech-codec
 ---
 We present ESC, a parameter-efficient speech foundation codec with cross-scale vector-quantized transformer architectures, which achieves coding performance comparable to state-of-the-art models while reducing decoding latency by 6.4x.
