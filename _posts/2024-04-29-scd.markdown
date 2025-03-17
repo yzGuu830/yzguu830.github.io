@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "How Did We Get Here? Summarizing Conversation Dynamics"
+date:   2024-04-29 22:21:59 +00:00
+image: /images/scd.png
+categories: research
+author: "Yuzhe Gu"
+authors: "Yilun Hua, Nicholas Chernogor, <strong>Yuzhe Gu</strong>, Seoyeon Julie Jeong, Miranda Luo, Cristian Danescu-Niculescu-Mizil"
+venue: "NAACL"
+arxiv: https://arxiv.org/abs/2404.19007
+code: https://github.com/CornellNLP/scd
+---
+We introduce the task of summarizing the dynamics of conversations (SCD) by constructing a dataset of human-written summaries and exploring several automated baselines. We demonstrate that SCDs assist both humans and automated systems in forecasting whether an ongoing conversation will eventually derail into toxic behavior.

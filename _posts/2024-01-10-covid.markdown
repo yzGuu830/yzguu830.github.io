@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Towards Quantification of Covid-19 Intervention Policies from Machine Learning-based Time Series Forecasting Approaches"
+date:   2024-01-10 22:21:59 +00:00
+image: /images/covid.png
+categories: research
+author: "Yuzhe Gu"
+authors: "<strong>Yuzhe Gu</strong>, Peng Sun, Azzedine Boukerche"
+venue: "IEEE International Conference on Communications (ICC)"
+paper: https://ieeexplore.ieee.org/document/10622693
+---
+We developed a policy-aware epidemic time-series predictive model, and performied causal analysis to quantify the effects of governmental interventions during COVID-19 through counterfactual estimation.
