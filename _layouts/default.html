@@ -135,9 +135,9 @@
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              <em>{{post.categories}} {{post.course}}</em>
+              <em>{{post.categories}} {{post.description}}</em>
               <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+              {{ post.date | date: "%Y/%m" }}
 
               <br>
               {% if post.website %}
@@ -181,8 +181,9 @@
           {% endfor %}
           {% endfor %}
         </table>
-
-        
+        <br>
+        <br>
+        <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=n&d=Sv8ml6NOhXWc3o2fpmWY7CfV78_1bSpyevlaXrSvGPA'></script>
 
