@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Visual Autoregressive Language Modeling"
+date: 2024-09-15 22:21:59 +00:00
+image: /images/vgpt.gif
+categories: project
+author: "Yuzhe Gu"
+code: https://github.com/yzGuu830/visual-gpt
+---
+An implementation of autoregressive vision generative models with discrete latent variables. Reconstruction and class-conditioned synthesis results are reproduced on StanfordDogs, a dataset containing 120 dog breeds, with comparable FID and Inception scores reported from VQ-GAN. 
