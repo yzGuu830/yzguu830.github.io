@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "Robustness Evaluation on LLM Bias and Fairness Metrics"
+title: "LLM Bias and Fairness: An Empirical Study on Metric Robustness"
 date: 2024/05
 image: /images/fairllm.png
 categories: project
 description: UPenn CIS700 - Trustworthy ML
 author: "Yuzhe Gu"
-slides: /pdfs/fair-llm-slide.pdf
+report: /pdfs/fair-llm-slide.pdf
 ---
-A re-evaluation on the robustness of text continuation-based bias metrics for quantifying group fairness in LLMs. Empirical results indicate that
-existing approaches are sensitive to language model's inherent non-determinism from decoding setups.
+A re-evaluation on the robustness of text continuation-based bias metrics for quantifying group fairness in LLMs. Empirical results indicate that existing approaches are sensitive to language model's inherent non-determinism from decoding setups.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visual Autoregressive Language Models"
+title: "Vision Autoregressive Modeling"
 date: 2024/10
 image: /images/vgpt.gif
 categories: project
