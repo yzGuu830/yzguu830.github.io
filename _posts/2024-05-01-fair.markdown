@@ -4,7 +4,7 @@ title: "LLM Bias and Fairness: An Empirical Study on Metric Robustness"
 date: 2024/05
 image: /images/fairllm.png
 categories: project
-description: UPenn CIS700 - Trustworthy ML
+description: Graduate project @ Penn - CIS700 Trustworthy ML
 author: "Yuzhe Gu"
 report: /pdfs/fair-llm-slide.pdf
 ---

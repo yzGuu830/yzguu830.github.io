@@ -4,7 +4,7 @@ title: "Vision Autoregressive Modeling"
 date: 2024/10
 image: /images/vgpt.gif
 categories: project
-description: an open-source PyTorch implementation
+description: An open-source PyTorch implementation
 author: "Yuzhe Gu"
 code: https://github.com/yzGuu830/visual-gpt
 ---
