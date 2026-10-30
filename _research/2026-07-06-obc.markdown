@@ -1,8 +1,9 @@
 ---
-layout: post
 title:  "OBCache: Optimal Brain KV Cache Pruning for Efficient Long-Context LLM Inference"
 date:   2026-07-06 22:21:59 +00:00
-image: /images/obcache.png
+image: /images/obcache.webp
+image_width: 800
+image_height: 410
 categories: research
 author: "Yuzhe Gu"
 authors: "<strong>Yuzhe Gu</strong>, Xiyu Liang, Jiaojiao Zhao, Enmao Diao"

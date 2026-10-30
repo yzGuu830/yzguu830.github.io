@@ -31,25 +31,30 @@
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
+            <td style="padding:2.5%;width:53%;vertical-align:middle">
               <h1>
                 Yuzhe Gu
               </h1>
               <p>
-                I am an MSE student pursuing dual degrees in <a href="https://www.cis.upenn.edu">Computer and Information Science</a> and <a href="https://www.ese.upenn.edu">Electrical and Systems Engineering</a> at the <a href="https://www.upenn.edu">University of Pennsylvania</a>, with a concentration on Artificial Intelligence and Machine Learning. I received my dual Bachelor's degrees in Data Science from <a href="https://www.dukekunshan.edu.cn">Duke Kunshan University</a> and <a href="https://www.duke.edu">Duke University</a>.
+                I am an ML researcher at UC Santa Cruz, advised by Prof. Yi Zhang. 
+              </p>  
+                I received my M.S. from the University of Pennsylvania, and my dual B.S. degrees from Duke Kunshan University and Duke University.
               </p>
               <p>
-                As a machine learning researcher, I am passionate about addressing emerging challenges through principled mathematical analysis and practical algorithm design, with a focus on enhancing efficiency and reliability of intelligent systems spanning language, vision, and multimodal domains.
+                My current research focuses on robotics, with a particular interest in developing agentic systems for general-purpose humanoid robots in the real world, and reliably benchmarking their behaviors. 
+              </p>
+              <p> 
+                Previously, I also worked on problems in natural language processing and speech and dialogue processing, with a focus on improving the algorithmic efficiency and effectiveness through mathematical principles. 
               </p>
               <p style="text-align:center">
-                <a href="mailto:tracygu@seas.upenn.edu"> Email</a> &nbsp;/&nbsp;
+                <a href="mailto:yuzheguu@gmail.com"> Email</a> &nbsp;/&nbsp;
                 <a href="https://github.com/yzGuu830">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=xdAB6asAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=cpEZLK8AAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
                 <a href="https://www.linkedin.com/in/yuzheguu"> LinkedIn </a>
               </p>
             </td>
-            <td style="padding:2.5%;width:40%;max-width:40%", class="card">
-              <img style="width:100%;max-width:100%" class = "img-top" alt="profile photo" src="images/profile.png">
+            <td style="padding:2.5%;width:30%;max-width:30%" class="card">
+              <img style="width:220px;max-width:100%;height:auto" class = "img-top" alt="profile photo" src="{{ site.avatar | relative_url }}">
             </td>
           </tr>
         </table>
@@ -57,29 +62,26 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
-              <p>My past research focuses on improving algorithm efficiency and effectiveness in deep learning problems, particularly in the context of modern generative models for vision and language. Previously, I also worked on deep learning-driven audio processing, including applications in compression and speech synthesis.
-              </p>
+              <h2>Selected Research</h2>
+              <!-- <p>My past research focuses on improving algorithm efficiency and effectiveness in deep learning problems, particularly in the context of modern generative models for vision and language. Previously, I also worked on deep learning-driven audio processing, including applications in compression and speech synthesis.
+              </p> -->
             </td>
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for post in site.posts %}
+          {% assign research = site.research | sort: 'date' | reverse %}
+          {% for post in research %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            <td style="padding:2.5%;width:22%;vertical-align:middle;min-width:120px">
+              <img src="{{post.image}}" alt="project image" style="width:100%;height:auto;max-width:200px;" />
             </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
+            <td style="padding:2.5%;width:78%;vertical-align:middle">
+              <h3 class="research-title">{{post.title}}</h3>
+              <div class="research-authors">{{post.authors}}</div>
+              <div class="research-venue"><em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}</div>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
@@ -105,7 +107,7 @@
               <a href="{{post.youtube}}">youtube</a> /
               {% endif %}
               <p></p>
-              {{ post.excerpt }}
+              {{ post.content | markdownify }}
             </td>
           </tr>
           {% endif %}
@@ -115,13 +117,6 @@
         <br>
         <br>
         <br>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Projects</h2>
-            </td>
-          </tr>
-        </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}

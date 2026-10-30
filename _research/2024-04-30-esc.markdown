@@ -1,8 +1,9 @@
 ---
-layout: post
 title:  "ESC: Efficient Speech Coding with Cross-Scale Residual Vector Quantized Transformers"
 date:   2024-04-30 22:21:59 +00:00
-image: /images/esc.png
+image: /images/esc.webp
+image_width: 800
+image_height: 378
 categories: research
 author: "Yuzhe Gu"
 authors: "<strong>Yuzhe Gu</strong>, Enmao Diao"

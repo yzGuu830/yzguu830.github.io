@@ -1,8 +1,9 @@
 ---
-layout: post
 title:  "How Did We Get Here? Summarizing Conversation Dynamics"
 date:   2024-04-29 22:21:59 +00:00
-image: /images/scd.png
+image: /images/scd.webp
+image_width: 800
+image_height: 706
 categories: research
 author: "Yuzhe Gu"
 authors: "Yilun Hua, Nicholas Chernogor, <strong>Yuzhe Gu</strong>, Seoyeon Julie Jeong, Miranda Luo, Cristian Danescu-Niculescu-Mizil"
